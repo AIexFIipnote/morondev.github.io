@@ -17,7 +17,7 @@ end
 local af,as,ao,egg = false,false,false,""
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 local w = library:CreateWindow("Bubble gum simulator")
-local b = w:CreateFolder("Main")
+local b = w:CreateFolder("Tools")
 b:Toggle("Auto Farm",function(bool)
     af = bool
 end)
